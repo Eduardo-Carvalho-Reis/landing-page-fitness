@@ -1,0 +1,39 @@
+body{
+    background-color: aquamarine;
+
+}
+
+
+header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    gap: 50px;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content:left;
+    gap: 100x;
+    
+}
+#menu-nav{
+        margin-left: 5px ;
+
+}
+#menu-nav a { 
+    text-decoration: none;
+    color: rgb(212, 24, 212);
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    transition: color 0.3s;
+
+}
+
+#menu-nav a:hover {
+    color:rgb(237, 164, 224);
+}
+
+
