@@ -5,35 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/styles/style.css">
+    <script src="script/script.js" defer></script>
     <title>Produtos fitness</title>
 </head>
 
 <body>
     <header>
-        
+
         <div class="menu">
             <img src="../src/images/logo/logo.png" alt="logo" id="logo">
-        <nav id="menu-nav">
-            <a href="http://">Inicio</a>
-            <a href="http://">Parceiros</a>
-            <a href="/contatos.html">Contatos</a>
-        </nav>
+            <nav id="menu-nav">
+                <a href="http://">Inicio</a>
+                <a href="http://">Parceiros</a>
+                <a href="/contatos.html">Contatos</a>
+            </nav>
         </div>
 
     </header>
     <main>
-        
+
         <div class="texto-produtos">
             <h1>Conheça nossos produtos</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>  Explore nossa linha de produtos esportivos, pensados para proporcionar
+    conforto, resistência e alta performance. Escolha o equipamento ideal para
+    elevar seu desempenho em qualquer atividade.</p>
 
         </div>
 
 
 
-        
+
         <div class="slider-carrosel">
-            <button class="button-carrosel">></button>
+            <button class="button-carrosel" id="button-avancar">></button>
 
             <div class="slider-images">
                 <div class="card-images">
@@ -60,31 +63,62 @@
                     <p class="preco-real">167 R$</p>
                     <button class="button-comprar">Comprar</button>
                 </div>
-            </div>
-        <button class="button-carrosel"> < </button>
-        </div>
-        
-
-                <div class="card-images-produto">
-
-                    <div class="card-images-produto-container">
-                        <img src="/src/images/demostracaoProdutos/demonstracao1.png" alt="" class="imagem-demostracao">
-                    </div>
-
-
-                    <div class="card-images-produto-container">
-                        <img src="/src/images/demostracaoProdutos/demonstracao2.png" alt="" class="imagem-demostracao">
-                    </div>
-
+                <div class="card-images">
+                    <img src="/src/images/produtos/corda2.png" alt="Produto" class="imagem">
+                    <p class="preco-falso">198 R$</p>
+                    <p class="preco-real">167 R$</p>
+                    <button class="button-comprar">Comprar</button>
                 </div>
+                <div class="card-images">
+                    <img src="/src/images/produtos/borracha.png" alt="Produto" class="imagem">
+                    <p class="preco-falso">198 R$</p>
+                    <p class="preco-real">167 R$</p>
+                    <button class="button-comprar">Comprar</button>
+                </div>
+                <div class="card-images">
+                    <img src="/src/images/produtos/garrafa.png" alt="Produto" class="imagem">
+                    <p class="preco-falso">198 R$</p>
+                    <p class="preco-real">167 R$</p>
+                    <button class="button-comprar">Comprar</button>
+                </div>
+                <div class="card-images">
+                    <img src="/src/images/produtos/tenis.png" alt="Produto" class="imagem">
+                    <p class="preco-falso">198 R$</p>
+                    <p class="preco-real">167 R$</p>
+                    <button class="button-comprar">Comprar</button>
+                </div>
+            </div>
+            <button class="button-carrosel" id="button-voltar">
+                < </button>
+        </div>
+
+
+        <div class="card-images-produto">
+
+            <div class="card-images-produto-container">
+                <img src="/src/images/demostracaoProdutos/demonstracao1.png" alt="" class="imagem-demostracao"
+                    id="banner-1">
+            </div>
+
+
+            <div class="card-images-produto-container">
+                <img src="/src/images/demostracaoProdutos/demonstracao2.png" alt="" class="imagem-demostracao"
+                    id="banner-2">
+            </div>
+
+        </div>
 
     </main>
-    <footer>
-        <p>Email: contato@empresa.com</p>
-        <p>Telefone: (77) 99999-9999</p>
-        <a href="#">GitHub</a>
+    <footer class="footer">
+        <p><strong>Contato</strong></p>
+        <p>📧 contato@empresa.com</p>
+        <p>📞 (77) 99999-9999</p>
 
+        <a href="https://github.com/Eduardo-Carvalho-Reis">GitHub</a>
 
+        <p class="copyright">
+            &copy; 2026 Minha Loja. Todos os direitos reservados.
+        </p>
     </footer>
 
 </body>

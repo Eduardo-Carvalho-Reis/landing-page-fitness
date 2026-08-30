@@ -9,10 +9,10 @@ body img {
     gap: 50px;
 }
 
-.card-images-produto-container img{
+.card-images-produto img {
     width: 500px;
-    height: auto; 
-    gap: 50px;
+    height: 300px;
+    object-fit: contain;
 }
 
 header img {
@@ -128,4 +128,34 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.off {
+    display: none;
+}
+.footer {
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 8px 0;
+}
+
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #cfcfcf;
 }
