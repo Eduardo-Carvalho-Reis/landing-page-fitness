@@ -68,12 +68,12 @@ const b2 = document.getElementById("banner-2");
 
     
 const imagesDemonstraca=[
-    "/src/images/demostracaoProdutos/demonstracao1.png",
-    "/src/images/demostracaoProdutos/demonstracao2.png",
-    "/src/images/demostracaoProdutos/demonstracao3.png",
-    "/src/images/demostracaoProdutos/demonstracao4.png",
-    "/src/images/demostracaoProdutos/demonstracao5.png",
-    "/src/images/demostracaoProdutos/demonstracao6.png"
+    "src/images/demostracaoProdutos/demonstracao1.png",
+    "src/images/demostracaoProdutos/demonstracao2.png",
+    "src/images/demostracaoProdutos/demonstracao3.png",
+    "src/images/demostracaoProdutos/demonstracao4.png",
+    "src/images/demostracaoProdutos/demonstracao5.png",
+    "src/images/demostracaoProdutos/demonstracao6.png"
 ];
 
 let indice=0;
